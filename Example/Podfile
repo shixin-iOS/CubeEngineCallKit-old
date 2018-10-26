@@ -1,0 +1,6 @@
+use_frameworks!
+target 'CubeEngineCallKit_Tests' do
+  pod 'CubeEngineCallKit', :path => '../'
+  
+  
+end

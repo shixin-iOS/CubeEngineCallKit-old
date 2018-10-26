@@ -1,0 +1,6 @@
+framework module Pods_CubeEngineCallKit_Tests {
+  umbrella header "Pods-CubeEngineCallKit_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

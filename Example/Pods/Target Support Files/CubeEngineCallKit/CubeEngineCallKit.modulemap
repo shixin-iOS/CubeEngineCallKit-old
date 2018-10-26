@@ -1,0 +1,6 @@
+framework module CubeEngineCallKit {
+  umbrella header "CubeEngineCallKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

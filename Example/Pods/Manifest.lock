@@ -1,0 +1,16 @@
+PODS:
+  - CubeEngineCallKit (0.1.0)
+
+DEPENDENCIES:
+  - CubeEngineCallKit (from `../`)
+
+EXTERNAL SOURCES:
+  CubeEngineCallKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CubeEngineCallKit: 4bd415209c8af6e27227ea640248f5702ecece1f
+
+PODFILE CHECKSUM: 27706b6259bf27b0efae7518953926e041a24817
+
+COCOAPODS: 1.5.0
