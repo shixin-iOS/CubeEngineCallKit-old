@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'CubeEngineCallKit'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of CubeEngineCallKit.'
+  s.summary          = 'Media part of CubeEngine'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+A media part extend of CubeEngine
                        DESC
 
   s.homepage         = 'https://github.com/AshineReal/CubeEngineCallKit'
@@ -31,6 +31,17 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'CubeEngineCallKit/Classes/**/*'
+  s.vendored_frameworks = 'CubeEngineCallKit/Frameworks/*.framework'
+  s.dependency  'CubeEngineFoundationKit'
+
+  s.requires_arc = true
+  s.xcconfig = {
+  'CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES' => 'YES',
+  'FRAMEWORK_SEARCH_PATHS' => '$(inherited)',
+  'HEADER_SEARCH_PATHS' =>'$(inherited)',
+  'ARCHS' => '$(inherited)',
+  'OTHER_LDFLAGS'          => '$(inherited) -undefined dynamic_lookup',
+  'VALID_ARCHS' =>'$(inherited)'}
   
   # s.resource_bundles = {
   #   'CubeEngineCallKit' => ['CubeEngineCallKit/Assets/*.png']
