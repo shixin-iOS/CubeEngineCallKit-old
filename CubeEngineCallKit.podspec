@@ -32,7 +32,7 @@ A media part extend of CubeEngine
 
   s.source_files = 'CubeEngineCallKit/Classes/**/*'
   s.vendored_frameworks = 'CubeEngineCallKit/Frameworks/*.framework'
-  s.dependency  'CubeEngineFoundationKit'
+  s.dependency  'CubeEngineFoundationKit','CubeWebRTC'
 
   s.requires_arc = true
   s.xcconfig = {
