@@ -1,15 +1,30 @@
 PODS:
-  - CubeEngineCallKit (0.1.0)
+  - CubeEngineCallKit (1.0.1):
+    - CubeEngineFoundationKit
+    - CubeWebRTC
+  - CubeEngineFoundationKit (1.0.5):
+    - Genie
+  - CubeWebRTC (0.1.0)
+  - Genie (1.0.1)
 
 DEPENDENCIES:
   - CubeEngineCallKit (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - CubeEngineFoundationKit
+    - CubeWebRTC
+    - Genie
 
 EXTERNAL SOURCES:
   CubeEngineCallKit:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CubeEngineCallKit: 4bd415209c8af6e27227ea640248f5702ecece1f
+  CubeEngineCallKit: c9455786fab3166b710fcc326480f33b44823b20
+  CubeEngineFoundationKit: 66fc13c8c6ece8a5e579cd0a25b38ed19212bb91
+  CubeWebRTC: b6534511202e4fd299e71af447683417504bc3e9
+  Genie: 491febcae661a032fbcb05c7dafe0ec0d97ab068
 
 PODFILE CHECKSUM: 27706b6259bf27b0efae7518953926e041a24817
 

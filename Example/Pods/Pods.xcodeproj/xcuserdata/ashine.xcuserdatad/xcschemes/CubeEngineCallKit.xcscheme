@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4FAFB6E954C7CECBDB2D244BBFE8AFD5"
+               BlueprintIdentifier = "3476B6DA2D2236D54C9FE9445DB81C53"
                BlueprintName = "CubeEngineCallKit"
                ReferencedContainer = "container:Pods.xcodeproj"
                BuildableName = "CubeEngineCallKit.framework">

@@ -143,10 +143,24 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "${PODS_ROOT}/../../CubeEngineCallKit/Frameworks/CubeEngineCallKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/CubeEngineCallKit/CubeEngineCallKit.framework"
+  install_framework "${PODS_ROOT}/CubeEngineFoundationKit/CubeEngineFoundationKit/Frameworks/CubeEngineFoundationKit.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/CubeEngineFoundationKit/CubeEngineFoundationKit.framework"
+  install_framework "${PODS_ROOT}/CubeWebRTC/WebRTC/Frameworks/WebRTC.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/CubeWebRTC/CubeWebRTC.framework"
+  install_framework "${PODS_ROOT}/Genie/Genie/Frameworks/Genie.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Genie/Genie.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "${PODS_ROOT}/../../CubeEngineCallKit/Frameworks/CubeEngineCallKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/CubeEngineCallKit/CubeEngineCallKit.framework"
+  install_framework "${PODS_ROOT}/CubeEngineFoundationKit/CubeEngineFoundationKit/Frameworks/CubeEngineFoundationKit.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/CubeEngineFoundationKit/CubeEngineFoundationKit.framework"
+  install_framework "${PODS_ROOT}/CubeWebRTC/WebRTC/Frameworks/WebRTC.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/CubeWebRTC/CubeWebRTC.framework"
+  install_framework "${PODS_ROOT}/Genie/Genie/Frameworks/Genie.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Genie/Genie.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

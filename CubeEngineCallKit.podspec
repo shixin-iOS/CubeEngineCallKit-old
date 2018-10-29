@@ -32,8 +32,9 @@ A media part extend of CubeEngine
 
   s.source_files = 'CubeEngineCallKit/Classes/**/*'
   s.vendored_frameworks = 'CubeEngineCallKit/Frameworks/*.framework'
-  s.dependency  'CubeEngineFoundationKit','CubeWebRTC'
-
+  s.dependency  'CubeEngineFoundationKit'
+  s.dependency 'CubeWebRTC'
+  
   s.requires_arc = true
   s.xcconfig = {
   'CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES' => 'YES',

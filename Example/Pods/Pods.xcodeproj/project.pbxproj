@@ -7,72 +7,204 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0D83C1DD621E45BE8B79FD4E5241C78D /* CubeEngineCallKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B9D1CF6870E02CAB99A911EE673082C2 /* CubeEngineCallKit-dummy.m */; };
-		175176F45ACFA49AD09202AEA656358B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		19B959FD7144C958A7AF7E1591241370 /* Pods-CubeEngineCallKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BE4191AF63BA57741C3237A3E0121A2 /* Pods-CubeEngineCallKit_Tests-dummy.m */; };
-		47CF673FBC563C8C6C1691177B17C7A9 /* Pods-CubeEngineCallKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 35BF30D75F7785DB164112FC0C5B2A3A /* Pods-CubeEngineCallKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		796A2A53BB11E7E8C6EBB165911843D9 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CAE139DB51C292C2B3AFF582A8BDB3A /* ReplaceMe.m */; };
-		946A998E0BAF4439527BD4A801786FA4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		B5A6A331D5EC47A24B729A9E316BEE40 /* CubeEngineCallKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 70809AE131956324A5CFBD9BB45F4F1F /* CubeEngineCallKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0412E72784BA3D710EE7F8050FC494A6 /* CubeWebRTC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E03C2DF85F86FFCC238A598FB6E03A03 /* CubeWebRTC.framework */; };
+		36EEE3539EAC9BD82009C34A6A17C65E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01C14B38DFACC67E317E50D30E2AE967 /* Foundation.framework */; };
+		3F0BFE12A86266F62FD13A5ACCFDB310 /* Genie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E1A26D061D24E4CFA261ADA3D0B7784 /* Genie.framework */; };
+		3F98A243557D89B2DFCC4725EB9C8832 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 98647E88E9C9532A8F8C448F608E2E70 /* ReplaceMe.m */; };
+		412A4FFAF4CCB0A9C4516291C47DA802 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 632EDD1674404E27CD6320D7090D96D0 /* ReplaceMe.m */; };
+		4688881DB116B734752599D6B7FC40BB /* Pods-CubeEngineCallKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BE4191AF63BA57741C3237A3E0121A2 /* Pods-CubeEngineCallKit_Tests-dummy.m */; };
+		5F49A41787D92FA91599C0E16CC09C3C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01C14B38DFACC67E317E50D30E2AE967 /* Foundation.framework */; };
+		6C123592A8CB339EF10C023A2CE05CE0 /* CubeWebRTC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D1B4D87DADB55265522A0B9F0C35C0D /* CubeWebRTC-dummy.m */; };
+		7593D16F89A4CAF87796E2D2608ADF73 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01C14B38DFACC67E317E50D30E2AE967 /* Foundation.framework */; };
+		7CE123D9CAC78532148B86A6CEEA1F1C /* CubeEngineFoundationKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65227C0CA06899AC9C52A79B7A060C2F /* CubeEngineFoundationKit.framework */; };
+		97178B87DD20D1E0EBD78B0DD97E59A3 /* CubeEngineFoundationKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F1854959A72A1A242FA586463C6E026A /* CubeEngineFoundationKit-dummy.m */; };
+		AA6D01504DF6DF88F4A43BC879BDF1CE /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D9DCE72C1F16A8F4ABF81A53477107 /* ReplaceMe.m */; };
+		ABB7D9F33BF17DD0BCF69A230023039B /* Genie-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6590726F39636D6078AACF0E19858012 /* Genie-dummy.m */; };
+		B18F3EF81D676F7EA274844CAF2AFA77 /* Genie-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BB8DF7CE0A69B272A57A89EA46B3CCBF /* Genie-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B34AC92752A74F14024F1767D0ECE462 /* Pods-CubeEngineCallKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 35BF30D75F7785DB164112FC0C5B2A3A /* Pods-CubeEngineCallKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6B02494A82EB0AF6D719078320FB81B /* CubeWebRTC-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 57B49B529C95A88593ECC1F7B8854160 /* CubeWebRTC-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9C46915AC3DAFB201893DFF6B6577B5 /* CubeEngineFoundationKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B4DDD730D16921A59740A88A55F565B5 /* CubeEngineFoundationKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C207915FB84E22C572280D3550D83F12 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = A126966EC39CCA2040E9C1A04ADE4FA0 /* ReplaceMe.m */; };
+		C22B6FAF5343CA85123940D2141FA32A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01C14B38DFACC67E317E50D30E2AE967 /* Foundation.framework */; };
+		CA2F15A8F9AF9C7140ED34DC9C8A7621 /* CubeEngineCallKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A9BF1205034314EA20848357E2DF2D41 /* CubeEngineCallKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4A690D48808E16A9D486C652C238DD7 /* CubeEngineCallKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1545FBB8588CAC622A7E042AA1691F45 /* CubeEngineCallKit-dummy.m */; };
+		EA456A4746107A8AC139B0216F669D43 /* Genie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E1A26D061D24E4CFA261ADA3D0B7784 /* Genie.framework */; };
+		FBC389873E14603976AF1E6CD796D5A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01C14B38DFACC67E317E50D30E2AE967 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1A7E0B5450AA3DABA3EC83860B1EF273 /* PBXContainerItemProxy */ = {
+		0C7EBD0934734ABB4010DD59716914A2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4FAFB6E954C7CECBDB2D244BBFE8AFD5;
+			remoteGlobalIDString = DDD9250BC154A6CDB766500BB1A0B249;
+			remoteInfo = Genie;
+		};
+		3CA9B493CC546B090CF996A7951BB626 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDD9250BC154A6CDB766500BB1A0B249;
+			remoteInfo = Genie;
+		};
+		4AF6F1FD7731C4B9C847892EC03360C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0DBF11D729A55DC7C038FE9B54444347;
+			remoteInfo = CubeWebRTC;
+		};
+		564CF254510024BCEF7E1CD088FFEEAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F9AE43DE2119B4C183B72FE9C726355;
+			remoteInfo = CubeEngineFoundationKit;
+		};
+		784F23C6454E8DBEA3893D69BF061993 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0DBF11D729A55DC7C038FE9B54444347;
+			remoteInfo = CubeWebRTC;
+		};
+		A1B6418D59F62EDFAE9EDE93D84E4FA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F9AE43DE2119B4C183B72FE9C726355;
+			remoteInfo = CubeEngineFoundationKit;
+		};
+		D90237284C7AC9E29802B505C6519C36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3476B6DA2D2236D54C9FE9445DB81C53;
 			remoteInfo = CubeEngineCallKit;
+		};
+		F9696E140901518FF1AE53FE5E840D71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDD9250BC154A6CDB766500BB1A0B249;
+			remoteInfo = Genie;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01C14B38DFACC67E317E50D30E2AE967 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		024314192D104FEEFA37E866A15686A9 /* CubeEngineCallKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CubeEngineCallKit.xcconfig; sourceTree = "<group>"; };
 		08F7E7DA8EFA0C8638A3841EA3D4122F /* Pods-CubeEngineCallKit_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CubeEngineCallKit_Tests-resources.sh"; sourceTree = "<group>"; };
 		0BE4191AF63BA57741C3237A3E0121A2 /* Pods-CubeEngineCallKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CubeEngineCallKit_Tests-dummy.m"; sourceTree = "<group>"; };
-		0CAE139DB51C292C2B3AFF582A8BDB3A /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = CubeEngineCallKit/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		119CFFE2C55F328A6F6FE863A405B16D /* CubeEngineCallKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CubeEngineCallKit.modulemap; sourceTree = "<group>"; };
 		14F5082CCB6A66AA3A181ADD31B505F0 /* Pods-CubeEngineCallKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CubeEngineCallKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		34E6C8F7EB52A4598D85C7FAEEA9AD4E /* CubeEngineCallKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = CubeEngineCallKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1545FBB8588CAC622A7E042AA1691F45 /* CubeEngineCallKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CubeEngineCallKit-dummy.m"; sourceTree = "<group>"; };
+		16361E193AE4768616038280FE293BAF /* CubeWebRTC.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CubeWebRTC.xcconfig; sourceTree = "<group>"; };
+		1D1B4D87DADB55265522A0B9F0C35C0D /* CubeWebRTC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CubeWebRTC-dummy.m"; sourceTree = "<group>"; };
+		24A652190D18E7F6861B590B48409218 /* CubeEngineFoundationKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CubeEngineFoundationKit.xcconfig; sourceTree = "<group>"; };
+		268D76667231AEC5E20E605FE90C605D /* CubeEngineCallKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CubeEngineCallKit.framework; path = CubeEngineCallKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		27BD6632DC1D7D784ECA0D7C9EDF5BC9 /* Genie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Genie.framework; path = Genie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E1A26D061D24E4CFA261ADA3D0B7784 /* Genie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Genie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		35BF30D75F7785DB164112FC0C5B2A3A /* Pods-CubeEngineCallKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CubeEngineCallKit_Tests-umbrella.h"; sourceTree = "<group>"; };
-		63B68BF9CA987E566A033DEF97E31F40 /* CubeEngineCallKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CubeEngineCallKit.xcconfig; sourceTree = "<group>"; };
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		70809AE131956324A5CFBD9BB45F4F1F /* CubeEngineCallKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CubeEngineCallKit-umbrella.h"; sourceTree = "<group>"; };
-		7D6DBC75AC5DA551847B83BF723AF673 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3701C560274F36A7199A8ACCDC387585 /* CubeWebRTC-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CubeWebRTC-prefix.pch"; sourceTree = "<group>"; };
+		3883189F269A458709EE8F8515E03248 /* CubeEngineCallKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = CubeEngineCallKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3A73DB85436591A662854CDEAB098042 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		4375FC8E27DC613D6C5B6FF1C1FF344E /* CubeEngineFoundationKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CubeEngineFoundationKit.framework; path = CubeEngineFoundationKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4609E2C9D0E5FAF4C8CD6F4091054F24 /* WebRTC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebRTC.framework; path = WebRTC/Frameworks/WebRTC.framework; sourceTree = "<group>"; };
+		57B49B529C95A88593ECC1F7B8854160 /* CubeWebRTC-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CubeWebRTC-umbrella.h"; sourceTree = "<group>"; };
+		632EDD1674404E27CD6320D7090D96D0 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = Genie/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		63D9DCE72C1F16A8F4ABF81A53477107 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = CubeEngineFoundationKit/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		65227C0CA06899AC9C52A79B7A060C2F /* CubeEngineFoundationKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CubeEngineFoundationKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6590726F39636D6078AACF0E19858012 /* Genie-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Genie-dummy.m"; sourceTree = "<group>"; };
+		660AAE0E2A308A65CADE9080E5E0E911 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67DD14C9CE45CB34F792E50869E3D382 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CA63961E3E3F1CF8829152700F90C85 /* CubeEngineFoundationKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CubeEngineFoundationKit.modulemap; sourceTree = "<group>"; };
+		6CE6B096DAD3824257635267047438FD /* CubeEngineCallKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CubeEngineCallKit.modulemap; sourceTree = "<group>"; };
+		6EBF3D19254F84882870E2CF0792298E /* Genie.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Genie.framework; path = Genie/Frameworks/Genie.framework; sourceTree = "<group>"; };
+		7F759D562AA10494764600E037E4ED6F /* Genie-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Genie-prefix.pch"; sourceTree = "<group>"; };
 		823854B6A5BF5DE84CDA2871E19FCA1A /* Pods-CubeEngineCallKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CubeEngineCallKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		9309490FE5A4E5FFF4CBBE61FC0E9566 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		8CB10B831F80DE9C35BF08423BE88F68 /* Genie.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Genie.modulemap; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		941427A98141E6A1CCDE145EA3F69B1F /* Pods-CubeEngineCallKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CubeEngineCallKit_Tests.modulemap"; sourceTree = "<group>"; };
-		9A05A9B283D4878C34756C7ECB914832 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		98647E88E9C9532A8F8C448F608E2E70 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = CubeEngineCallKit/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		98BE24E0F081B0F140FA851CF5322D8E /* CubeWebRTC.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CubeWebRTC.modulemap; sourceTree = "<group>"; };
+		9BCA21A77F6E8FDFC93195451CB280A6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A126966EC39CCA2040E9C1A04ADE4FA0 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = WebRTC/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		A5055B6E84E15939CFEA8AFA8DC8E7A1 /* Pods_CubeEngineCallKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CubeEngineCallKit_Tests.framework; path = "Pods-CubeEngineCallKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A65F11827F33753DB8E18FA6E1F5AAB4 /* Genie.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Genie.xcconfig; sourceTree = "<group>"; };
+		A9BF1205034314EA20848357E2DF2D41 /* CubeEngineCallKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CubeEngineCallKit-umbrella.h"; sourceTree = "<group>"; };
+		AC6C9E1B939357BCD1FA22163FB3152D /* CubeEngineFoundationKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CubeEngineFoundationKit-prefix.pch"; sourceTree = "<group>"; };
+		B4DDD730D16921A59740A88A55F565B5 /* CubeEngineFoundationKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CubeEngineFoundationKit-umbrella.h"; sourceTree = "<group>"; };
 		B6E13101B16D33A754305468E94ACFA3 /* Pods-CubeEngineCallKit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CubeEngineCallKit_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		B885474F6CEACABB4D5508C4C85D32E4 /* CubeEngineCallKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CubeEngineCallKit-prefix.pch"; sourceTree = "<group>"; };
-		B9D1CF6870E02CAB99A911EE673082C2 /* CubeEngineCallKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CubeEngineCallKit-dummy.m"; sourceTree = "<group>"; };
+		BB8DF7CE0A69B272A57A89EA46B3CCBF /* Genie-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Genie-umbrella.h"; sourceTree = "<group>"; };
 		C4D5DC7A9BD462E06C383CB7F0B36D85 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D4AFE35C37150097718FA1FD55A1C7CC /* CubeEngineCallKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CubeEngineCallKit.framework; path = CubeEngineCallKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBC237A4B3F195F40A1F90EF8FFA8316 /* CubeWebRTC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CubeWebRTC.framework; path = CubeWebRTC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA207CE214F9085A0B32EFFDE00D9E13 /* Pods-CubeEngineCallKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CubeEngineCallKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E03C2DF85F86FFCC238A598FB6E03A03 /* CubeWebRTC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CubeWebRTC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E32183A95B97E986596F9149DD0C1ECB /* Pods-CubeEngineCallKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CubeEngineCallKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F4F04C6F50D095C8927490B59619C3F1 /* Pods_CubeEngineCallKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CubeEngineCallKit_Tests.framework; path = "Pods-CubeEngineCallKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3DAE6690A7F0A0D77859843DB725551 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		E4962AF643ED0B6B748E223C678B745E /* CubeEngineCallKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CubeEngineCallKit.framework; path = CubeEngineCallKit/Frameworks/CubeEngineCallKit.framework; sourceTree = "<group>"; };
+		E7A15BC0BE3650463C26DAA7017C064F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1854959A72A1A242FA586463C6E026A /* CubeEngineFoundationKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CubeEngineFoundationKit-dummy.m"; sourceTree = "<group>"; };
+		FB578EEDDBF785E29D9F447A10DF46D2 /* CubeEngineCallKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CubeEngineCallKit-prefix.pch"; sourceTree = "<group>"; };
+		FF0E7E663C2A4E9EE845DA283A96DCE5 /* CubeEngineFoundationKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CubeEngineFoundationKit.framework; path = CubeEngineFoundationKit/Frameworks/CubeEngineFoundationKit.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4F99442840294D3BB5565F45A79383CA /* Frameworks */ = {
+		6DF37AEDC41CC8044F87990B44720283 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				175176F45ACFA49AD09202AEA656358B /* Foundation.framework in Frameworks */,
+				7593D16F89A4CAF87796E2D2608ADF73 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5A8DC370C71A1DE9A1AC7F625D454704 /* Frameworks */ = {
+		849F66B5166F3F2D3558907FE5975C13 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				946A998E0BAF4439527BD4A801786FA4 /* Foundation.framework in Frameworks */,
+				FBC389873E14603976AF1E6CD796D5A5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A75A0F27E370636DFE12E168C3384484 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CE123D9CAC78532148B86A6CEEA1F1C /* CubeEngineFoundationKit.framework in Frameworks */,
+				0412E72784BA3D710EE7F8050FC494A6 /* CubeWebRTC.framework in Frameworks */,
+				36EEE3539EAC9BD82009C34A6A17C65E /* Foundation.framework in Frameworks */,
+				EA456A4746107A8AC139B0216F669D43 /* Genie.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC1D8BB25C1D752FBBE1DF6DFE98CD96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C22B6FAF5343CA85123940D2141FA32A /* Foundation.framework in Frameworks */,
+				3F0BFE12A86266F62FD13A5ACCFDB310 /* Genie.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D12DAFF64C915C37BA23B186EEC32D55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F49A41787D92FA91599C0E16CC09C3C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0040D4C4CA9AB6172B595AE0095645D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6EBF3D19254F84882870E2CF0792298E /* Genie.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		10BC82F2999A650AAC63F97C49E8C15C /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -81,26 +213,60 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		1137BAE1B0538FBEFB8202A01ADD67DC /* Development Pods */ = {
+		1D9C83D6FBC1D010456AC4EC29720000 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				A086C87AC5EE26005FA0F6895252423D /* CubeEngineCallKit */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		15B47CDD351861467F1AFB9443FF54DC /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				119CFFE2C55F328A6F6FE863A405B16D /* CubeEngineCallKit.modulemap */,
-				63B68BF9CA987E566A033DEF97E31F40 /* CubeEngineCallKit.xcconfig */,
-				B9D1CF6870E02CAB99A911EE673082C2 /* CubeEngineCallKit-dummy.m */,
-				B885474F6CEACABB4D5508C4C85D32E4 /* CubeEngineCallKit-prefix.pch */,
-				70809AE131956324A5CFBD9BB45F4F1F /* CubeEngineCallKit-umbrella.h */,
-				7D6DBC75AC5DA551847B83BF723AF673 /* Info.plist */,
+				98BE24E0F081B0F140FA851CF5322D8E /* CubeWebRTC.modulemap */,
+				16361E193AE4768616038280FE293BAF /* CubeWebRTC.xcconfig */,
+				1D1B4D87DADB55265522A0B9F0C35C0D /* CubeWebRTC-dummy.m */,
+				3701C560274F36A7199A8ACCDC387585 /* CubeWebRTC-prefix.pch */,
+				57B49B529C95A88593ECC1F7B8854160 /* CubeWebRTC-umbrella.h */,
+				E7A15BC0BE3650463C26DAA7017C064F /* Info.plist */,
 			);
 			name = "Support Files";
-			path = "Example/Pods/Target Support Files/CubeEngineCallKit";
+			path = "../Target Support Files/CubeWebRTC";
+			sourceTree = "<group>";
+		};
+		294CB250AF24B38F0B67FCC72DBD99B5 /* CubeEngineCallKit */ = {
+			isa = PBXGroup;
+			children = (
+				98647E88E9C9532A8F8C448F608E2E70 /* ReplaceMe.m */,
+				4CF7BF3EE8C721DF6ADF320AE345557F /* Frameworks */,
+				4F1350C05B7858F7BB7DB4E3DCF8C437 /* Pod */,
+				F419C821530417172184132F986ECE08 /* Support Files */,
+			);
+			name = CubeEngineCallKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		3007ACB2FE2AFE68CC99AE0BA16FF6F3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4609E2C9D0E5FAF4C8CD6F4091054F24 /* WebRTC.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3B5294EB393FFA5E1AF246EB552C4E7D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8CB10B831F80DE9C35BF08423BE88F68 /* Genie.modulemap */,
+				A65F11827F33753DB8E18FA6E1F5AAB4 /* Genie.xcconfig */,
+				6590726F39636D6078AACF0E19858012 /* Genie-dummy.m */,
+				7F759D562AA10494764600E037E4ED6F /* Genie-prefix.pch */,
+				BB8DF7CE0A69B272A57A89EA46B3CCBF /* Genie-umbrella.h */,
+				660AAE0E2A308A65CADE9080E5E0E911 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Genie";
+			sourceTree = "<group>";
+		};
+		41B1B8DA36FC73452FF3D1B21BB4507B /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				294CB250AF24B38F0B67FCC72DBD99B5 /* CubeEngineCallKit */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		4AC032814CAF24146834AB9EF6ABAF32 /* Pods-CubeEngineCallKit_Tests */ = {
@@ -121,118 +287,283 @@
 			path = "Target Support Files/Pods-CubeEngineCallKit_Tests";
 			sourceTree = "<group>";
 		};
-		54056C61FDC0CDD2AC7A2890C45B99D1 /* Pod */ = {
+		4CF7BF3EE8C721DF6ADF320AE345557F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				34E6C8F7EB52A4598D85C7FAEEA9AD4E /* CubeEngineCallKit.podspec */,
-				9A05A9B283D4878C34756C7ECB914832 /* LICENSE */,
-				9309490FE5A4E5FFF4CBBE61FC0E9566 /* README.md */,
+				E4962AF643ED0B6B748E223C678B745E /* CubeEngineCallKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4F1350C05B7858F7BB7DB4E3DCF8C437 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				3883189F269A458709EE8F8515E03248 /* CubeEngineCallKit.podspec */,
+				3A73DB85436591A662854CDEAB098042 /* LICENSE */,
+				E3DAE6690A7F0A0D77859843DB725551 /* README.md */,
 			);
 			name = Pod;
+			sourceTree = "<group>";
+		};
+		5B6AC1BB91508DE03BB942CBA82C3936 /* CubeWebRTC */ = {
+			isa = PBXGroup;
+			children = (
+				A126966EC39CCA2040E9C1A04ADE4FA0 /* ReplaceMe.m */,
+				3007ACB2FE2AFE68CC99AE0BA16FF6F3 /* Frameworks */,
+				1D9C83D6FBC1D010456AC4EC29720000 /* Support Files */,
+			);
+			name = CubeWebRTC;
+			path = CubeWebRTC;
+			sourceTree = "<group>";
+		};
+		6C4BBC3897367C97E9A1C9A6EBCE15F6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				65227C0CA06899AC9C52A79B7A060C2F /* CubeEngineFoundationKit.framework */,
+				E03C2DF85F86FFCC238A598FB6E03A03 /* CubeWebRTC.framework */,
+				2E1A26D061D24E4CFA261ADA3D0B7784 /* Genie.framework */,
+				918803F65123E9D0560FB089B6429099 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		71E8BB59A726D2CBACFB3393DD88ECA6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				268D76667231AEC5E20E605FE90C605D /* CubeEngineCallKit.framework */,
+				4375FC8E27DC613D6C5B6FF1C1FF344E /* CubeEngineFoundationKit.framework */,
+				CBC237A4B3F195F40A1F90EF8FFA8316 /* CubeWebRTC.framework */,
+				27BD6632DC1D7D784ECA0D7C9EDF5BC9 /* Genie.framework */,
+				A5055B6E84E15939CFEA8AFA8DC8E7A1 /* Pods_CubeEngineCallKit_Tests.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				1137BAE1B0538FBEFB8202A01ADD67DC /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				BE0A7FEDF841552D9D1C9CB70FEBC49F /* Products */,
+				41B1B8DA36FC73452FF3D1B21BB4507B /* Development Pods */,
+				6C4BBC3897367C97E9A1C9A6EBCE15F6 /* Frameworks */,
+				8DB96AC189AB6DEF0EC904DC4214D835 /* Pods */,
+				71E8BB59A726D2CBACFB3393DD88ECA6 /* Products */,
 				10BC82F2999A650AAC63F97C49E8C15C /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		A086C87AC5EE26005FA0F6895252423D /* CubeEngineCallKit */ = {
+		7F01C8B5B64D3C2747549909BB4240F8 /* Genie */ = {
 			isa = PBXGroup;
 			children = (
-				0CAE139DB51C292C2B3AFF582A8BDB3A /* ReplaceMe.m */,
-				54056C61FDC0CDD2AC7A2890C45B99D1 /* Pod */,
-				15B47CDD351861467F1AFB9443FF54DC /* Support Files */,
+				632EDD1674404E27CD6320D7090D96D0 /* ReplaceMe.m */,
+				0040D4C4CA9AB6172B595AE0095645D0 /* Frameworks */,
+				3B5294EB393FFA5E1AF246EB552C4E7D /* Support Files */,
 			);
-			name = CubeEngineCallKit;
-			path = ../..;
+			name = Genie;
+			path = Genie;
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		85B1AF8B9A4DF5C2AFADF9B6B4488997 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+				FF0E7E663C2A4E9EE845DA283A96DCE5 /* CubeEngineFoundationKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		BE0A7FEDF841552D9D1C9CB70FEBC49F /* Products */ = {
+		8C360BCDB54C44186646EDCC42F2CD4E /* CubeEngineFoundationKit */ = {
 			isa = PBXGroup;
 			children = (
-				D4AFE35C37150097718FA1FD55A1C7CC /* CubeEngineCallKit.framework */,
-				F4F04C6F50D095C8927490B59619C3F1 /* Pods_CubeEngineCallKit_Tests.framework */,
+				63D9DCE72C1F16A8F4ABF81A53477107 /* ReplaceMe.m */,
+				85B1AF8B9A4DF5C2AFADF9B6B4488997 /* Frameworks */,
+				A36EB3618042236360BF0351E16484C3 /* Support Files */,
 			);
-			name = Products;
+			name = CubeEngineFoundationKit;
+			path = CubeEngineFoundationKit;
 			sourceTree = "<group>";
 		};
-		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+		8DB96AC189AB6DEF0EC904DC4214D835 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+				8C360BCDB54C44186646EDCC42F2CD4E /* CubeEngineFoundationKit */,
+				5B6AC1BB91508DE03BB942CBA82C3936 /* CubeWebRTC */,
+				7F01C8B5B64D3C2747549909BB4240F8 /* Genie */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		918803F65123E9D0560FB089B6429099 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				01C14B38DFACC67E317E50D30E2AE967 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		A36EB3618042236360BF0351E16484C3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6CA63961E3E3F1CF8829152700F90C85 /* CubeEngineFoundationKit.modulemap */,
+				24A652190D18E7F6861B590B48409218 /* CubeEngineFoundationKit.xcconfig */,
+				F1854959A72A1A242FA586463C6E026A /* CubeEngineFoundationKit-dummy.m */,
+				AC6C9E1B939357BCD1FA22163FB3152D /* CubeEngineFoundationKit-prefix.pch */,
+				B4DDD730D16921A59740A88A55F565B5 /* CubeEngineFoundationKit-umbrella.h */,
+				67DD14C9CE45CB34F792E50869E3D382 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CubeEngineFoundationKit";
+			sourceTree = "<group>";
+		};
+		F419C821530417172184132F986ECE08 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6CE6B096DAD3824257635267047438FD /* CubeEngineCallKit.modulemap */,
+				024314192D104FEEFA37E866A15686A9 /* CubeEngineCallKit.xcconfig */,
+				1545FBB8588CAC622A7E042AA1691F45 /* CubeEngineCallKit-dummy.m */,
+				FB578EEDDBF785E29D9F447A10DF46D2 /* CubeEngineCallKit-prefix.pch */,
+				A9BF1205034314EA20848357E2DF2D41 /* CubeEngineCallKit-umbrella.h */,
+				9BCA21A77F6E8FDFC93195451CB280A6 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CubeEngineCallKit";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0B8006D18A66A2D81CB5F8A99C193B48 /* Headers */ = {
+		622717408B84E061A7C091AEF6705157 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5A6A331D5EC47A24B729A9E316BEE40 /* CubeEngineCallKit-umbrella.h in Headers */,
+				B9C46915AC3DAFB201893DFF6B6577B5 /* CubeEngineFoundationKit-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		22EFDAB485CDC9D40A761EBF18A68EF8 /* Headers */ = {
+		B02A15FBAECA15F03EF18D41F3E27712 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47CF673FBC563C8C6C1691177B17C7A9 /* Pods-CubeEngineCallKit_Tests-umbrella.h in Headers */,
+				B34AC92752A74F14024F1767D0ECE462 /* Pods-CubeEngineCallKit_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAD4D16C11DD7C32560907493EA19427 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B18F3EF81D676F7EA274844CAF2AFA77 /* Genie-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE8F99D7B436A03358CA059D2E75F167 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA2F15A8F9AF9C7140ED34DC9C8A7621 /* CubeEngineCallKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2BB34474CA3C8CED93212871052922F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6B02494A82EB0AF6D719078320FB81B /* CubeWebRTC-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		4E34DC9A4AB61C1180755E7F5382768B /* Pods-CubeEngineCallKit_Tests */ = {
+		0DBF11D729A55DC7C038FE9B54444347 /* CubeWebRTC */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 29837E774AF0D1B0A53036F0821C9996 /* Build configuration list for PBXNativeTarget "Pods-CubeEngineCallKit_Tests" */;
+			buildConfigurationList = DD71A145F5D600936CAD3FD45004B634 /* Build configuration list for PBXNativeTarget "CubeWebRTC" */;
 			buildPhases = (
-				D3B4F5D7356AD0718DB92464AE6FE156 /* Sources */,
-				4F99442840294D3BB5565F45A79383CA /* Frameworks */,
-				22EFDAB485CDC9D40A761EBF18A68EF8 /* Headers */,
+				B92184780FA3A59A75343A1882D2E265 /* Sources */,
+				6DF37AEDC41CC8044F87990B44720283 /* Frameworks */,
+				D2BB34474CA3C8CED93212871052922F /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				985CAA4FD90D8368B9D4FFF7039396BA /* PBXTargetDependency */,
 			);
-			name = "Pods-CubeEngineCallKit_Tests";
-			productName = "Pods-CubeEngineCallKit_Tests";
-			productReference = F4F04C6F50D095C8927490B59619C3F1 /* Pods_CubeEngineCallKit_Tests.framework */;
+			name = CubeWebRTC;
+			productName = CubeWebRTC;
+			productReference = CBC237A4B3F195F40A1F90EF8FFA8316 /* CubeWebRTC.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		4FAFB6E954C7CECBDB2D244BBFE8AFD5 /* CubeEngineCallKit */ = {
+		3476B6DA2D2236D54C9FE9445DB81C53 /* CubeEngineCallKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BAC03B8794AD339144CA42B83CEDE200 /* Build configuration list for PBXNativeTarget "CubeEngineCallKit" */;
+			buildConfigurationList = B9BDC4A8F185C81D576084B9E2D905A6 /* Build configuration list for PBXNativeTarget "CubeEngineCallKit" */;
 			buildPhases = (
-				97F82E777B6DEA17F0E7181E62BD577D /* Sources */,
-				5A8DC370C71A1DE9A1AC7F625D454704 /* Frameworks */,
-				0B8006D18A66A2D81CB5F8A99C193B48 /* Headers */,
+				0F6D55CA0A99CF64946F4B3BC4EA33E4 /* Sources */,
+				A75A0F27E370636DFE12E168C3384484 /* Frameworks */,
+				BE8F99D7B436A03358CA059D2E75F167 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				AC1A229D020FCA92E9F0FA2E5EA853A8 /* PBXTargetDependency */,
+				CC62D25F522B33E539AD4FA10CA86B32 /* PBXTargetDependency */,
+				FA1F1DF0A56AEAA6BA5F646FF9941F66 /* PBXTargetDependency */,
 			);
 			name = CubeEngineCallKit;
 			productName = CubeEngineCallKit;
-			productReference = D4AFE35C37150097718FA1FD55A1C7CC /* CubeEngineCallKit.framework */;
+			productReference = 268D76667231AEC5E20E605FE90C605D /* CubeEngineCallKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		712E3F076C80BF95957F18D9369636AB /* Pods-CubeEngineCallKit_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF7CB656CAD5BD7D7DD159F70FCC8E88 /* Build configuration list for PBXNativeTarget "Pods-CubeEngineCallKit_Tests" */;
+			buildPhases = (
+				CDD51FB915B806B8A19B7A3F3F9CC200 /* Sources */,
+				849F66B5166F3F2D3558907FE5975C13 /* Frameworks */,
+				B02A15FBAECA15F03EF18D41F3E27712 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8E9D841E6ED1D52749A0C9BF8660EC5 /* PBXTargetDependency */,
+				F9F87A09041A7141BB5F09740EF236D4 /* PBXTargetDependency */,
+				27DA7688935E92E340B800CB0634BCA5 /* PBXTargetDependency */,
+				945285CD19F9F8F443567600CF62F4A9 /* PBXTargetDependency */,
+			);
+			name = "Pods-CubeEngineCallKit_Tests";
+			productName = "Pods-CubeEngineCallKit_Tests";
+			productReference = A5055B6E84E15939CFEA8AFA8DC8E7A1 /* Pods_CubeEngineCallKit_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7F9AE43DE2119B4C183B72FE9C726355 /* CubeEngineFoundationKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6467362F04D0572B976DC856B565781A /* Build configuration list for PBXNativeTarget "CubeEngineFoundationKit" */;
+			buildPhases = (
+				A0B0A4E0D40244063EBD7C056F60B773 /* Sources */,
+				BC1D8BB25C1D752FBBE1DF6DFE98CD96 /* Frameworks */,
+				622717408B84E061A7C091AEF6705157 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				231C6A09EAB13A71B481F96741053E4B /* PBXTargetDependency */,
+			);
+			name = CubeEngineFoundationKit;
+			productName = CubeEngineFoundationKit;
+			productReference = 4375FC8E27DC613D6C5B6FF1C1FF344E /* CubeEngineFoundationKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DDD9250BC154A6CDB766500BB1A0B249 /* Genie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16B099A8EBF0BEDABFB89DD93778D4EA /* Build configuration list for PBXNativeTarget "Genie" */;
+			buildPhases = (
+				8B7E999F08DDBF89C7037AF802F185B3 /* Sources */,
+				D12DAFF64C915C37BA23B186EEC32D55 /* Frameworks */,
+				BAD4D16C11DD7C32560907493EA19427 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Genie;
+			productName = Genie;
+			productReference = 27BD6632DC1D7D784ECA0D7C9EDF5BC9 /* Genie.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -252,47 +583,149 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = BE0A7FEDF841552D9D1C9CB70FEBC49F /* Products */;
+			productRefGroup = 71E8BB59A726D2CBACFB3393DD88ECA6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4FAFB6E954C7CECBDB2D244BBFE8AFD5 /* CubeEngineCallKit */,
-				4E34DC9A4AB61C1180755E7F5382768B /* Pods-CubeEngineCallKit_Tests */,
+				3476B6DA2D2236D54C9FE9445DB81C53 /* CubeEngineCallKit */,
+				7F9AE43DE2119B4C183B72FE9C726355 /* CubeEngineFoundationKit */,
+				0DBF11D729A55DC7C038FE9B54444347 /* CubeWebRTC */,
+				DDD9250BC154A6CDB766500BB1A0B249 /* Genie */,
+				712E3F076C80BF95957F18D9369636AB /* Pods-CubeEngineCallKit_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		97F82E777B6DEA17F0E7181E62BD577D /* Sources */ = {
+		0F6D55CA0A99CF64946F4B3BC4EA33E4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D83C1DD621E45BE8B79FD4E5241C78D /* CubeEngineCallKit-dummy.m in Sources */,
-				796A2A53BB11E7E8C6EBB165911843D9 /* ReplaceMe.m in Sources */,
+				D4A690D48808E16A9D486C652C238DD7 /* CubeEngineCallKit-dummy.m in Sources */,
+				3F98A243557D89B2DFCC4725EB9C8832 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D3B4F5D7356AD0718DB92464AE6FE156 /* Sources */ = {
+		8B7E999F08DDBF89C7037AF802F185B3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19B959FD7144C958A7AF7E1591241370 /* Pods-CubeEngineCallKit_Tests-dummy.m in Sources */,
+				ABB7D9F33BF17DD0BCF69A230023039B /* Genie-dummy.m in Sources */,
+				412A4FFAF4CCB0A9C4516291C47DA802 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0B0A4E0D40244063EBD7C056F60B773 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97178B87DD20D1E0EBD78B0DD97E59A3 /* CubeEngineFoundationKit-dummy.m in Sources */,
+				AA6D01504DF6DF88F4A43BC879BDF1CE /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B92184780FA3A59A75343A1882D2E265 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C123592A8CB339EF10C023A2CE05CE0 /* CubeWebRTC-dummy.m in Sources */,
+				C207915FB84E22C572280D3550D83F12 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDD51FB915B806B8A19B7A3F3F9CC200 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4688881DB116B734752599D6B7FC40BB /* Pods-CubeEngineCallKit_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		985CAA4FD90D8368B9D4FFF7039396BA /* PBXTargetDependency */ = {
+		231C6A09EAB13A71B481F96741053E4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Genie;
+			target = DDD9250BC154A6CDB766500BB1A0B249 /* Genie */;
+			targetProxy = 3CA9B493CC546B090CF996A7951BB626 /* PBXContainerItemProxy */;
+		};
+		27DA7688935E92E340B800CB0634BCA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CubeWebRTC;
+			target = 0DBF11D729A55DC7C038FE9B54444347 /* CubeWebRTC */;
+			targetProxy = 784F23C6454E8DBEA3893D69BF061993 /* PBXContainerItemProxy */;
+		};
+		945285CD19F9F8F443567600CF62F4A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Genie;
+			target = DDD9250BC154A6CDB766500BB1A0B249 /* Genie */;
+			targetProxy = 0C7EBD0934734ABB4010DD59716914A2 /* PBXContainerItemProxy */;
+		};
+		AC1A229D020FCA92E9F0FA2E5EA853A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CubeEngineFoundationKit;
+			target = 7F9AE43DE2119B4C183B72FE9C726355 /* CubeEngineFoundationKit */;
+			targetProxy = A1B6418D59F62EDFAE9EDE93D84E4FA8 /* PBXContainerItemProxy */;
+		};
+		CC62D25F522B33E539AD4FA10CA86B32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CubeWebRTC;
+			target = 0DBF11D729A55DC7C038FE9B54444347 /* CubeWebRTC */;
+			targetProxy = 4AF6F1FD7731C4B9C847892EC03360C3 /* PBXContainerItemProxy */;
+		};
+		F8E9D841E6ED1D52749A0C9BF8660EC5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CubeEngineCallKit;
-			target = 4FAFB6E954C7CECBDB2D244BBFE8AFD5 /* CubeEngineCallKit */;
-			targetProxy = 1A7E0B5450AA3DABA3EC83860B1EF273 /* PBXContainerItemProxy */;
+			target = 3476B6DA2D2236D54C9FE9445DB81C53 /* CubeEngineCallKit */;
+			targetProxy = D90237284C7AC9E29802B505C6519C36 /* PBXContainerItemProxy */;
+		};
+		F9F87A09041A7141BB5F09740EF236D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CubeEngineFoundationKit;
+			target = 7F9AE43DE2119B4C183B72FE9C726355 /* CubeEngineFoundationKit */;
+			targetProxy = 564CF254510024BCEF7E1CD088FFEEAE /* PBXContainerItemProxy */;
+		};
+		FA1F1DF0A56AEAA6BA5F646FF9941F66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Genie;
+			target = DDD9250BC154A6CDB766500BB1A0B249 /* Genie */;
+			targetProxy = F9696E140901518FF1AE53FE5E840D71 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		36A1DD2ADF684DBEBB0623153C769ECA /* Debug */ = {
+		202D4F455D34C60CEE3D5F9B4071BB47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A65F11827F33753DB8E18FA6E1F5AAB4 /* Genie.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Genie/Genie-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Genie/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Genie/Genie.modulemap";
+				PRODUCT_MODULE_NAME = Genie;
+				PRODUCT_NAME = Genie;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3F3B675FE16F6BA86BB3553A550DC6B7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 823854B6A5BF5DE84CDA2871E19FCA1A /* Pods-CubeEngineCallKit_Tests.debug.xcconfig */;
 			buildSettings = {
@@ -325,9 +758,9 @@
 			};
 			name = Debug;
 		};
-		423F30D6DF510037CE733A50001BD37C /* Debug */ = {
+		6AD92CC7EEC49F376759A97FFCBC66F7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 63B68BF9CA987E566A033DEF97E31F40 /* CubeEngineCallKit.xcconfig */;
+			baseConfigurationReference = 16361E193AE4768616038280FE293BAF /* CubeWebRTC.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -338,22 +771,57 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CubeEngineCallKit/CubeEngineCallKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CubeEngineCallKit/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/CubeWebRTC/CubeWebRTC-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CubeWebRTC/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CubeEngineCallKit/CubeEngineCallKit.modulemap";
-				PRODUCT_MODULE_NAME = CubeEngineCallKit;
-				PRODUCT_NAME = CubeEngineCallKit;
+				MODULEMAP_FILE = "Target Support Files/CubeWebRTC/CubeWebRTC.modulemap";
+				PRODUCT_MODULE_NAME = CubeWebRTC;
+				PRODUCT_NAME = CubeWebRTC;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
+		};
+		6F02A700E32315A2199A07D1F98D8CC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA207CE214F9085A0B32EFFDE00D9E13 /* Pods-CubeEngineCallKit_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CubeEngineCallKit_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CubeEngineCallKit_Tests/Pods-CubeEngineCallKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -418,6 +886,98 @@
 			};
 			name = Debug;
 		};
+		8ECE3894587B99ABF8946FC8857D0966 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A65F11827F33753DB8E18FA6E1F5AAB4 /* Genie.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Genie/Genie-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Genie/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Genie/Genie.modulemap";
+				PRODUCT_MODULE_NAME = Genie;
+				PRODUCT_NAME = Genie;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		93B567997364A930EA2EA41AEAE837C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16361E193AE4768616038280FE293BAF /* CubeWebRTC.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CubeWebRTC/CubeWebRTC-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CubeWebRTC/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CubeWebRTC/CubeWebRTC.modulemap";
+				PRODUCT_MODULE_NAME = CubeWebRTC;
+				PRODUCT_NAME = CubeWebRTC;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9B70AED253D11CF04F1683A4827C183D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 024314192D104FEEFA37E866A15686A9 /* CubeEngineCallKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CubeEngineCallKit/CubeEngineCallKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CubeEngineCallKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CubeEngineCallKit/CubeEngineCallKit.modulemap";
+				PRODUCT_MODULE_NAME = CubeEngineCallKit;
+				PRODUCT_NAME = CubeEngineCallKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -476,11 +1036,10 @@
 			};
 			name = Release;
 		};
-		BA329FADD4455AACCDD27038904694BE /* Release */ = {
+		BC0A387FA5B8ED1ADFDA0CA404DE0143 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DA207CE214F9085A0B32EFFDE00D9E13 /* Pods-CubeEngineCallKit_Tests.release.xcconfig */;
+			baseConfigurationReference = 24A652190D18E7F6861B590B48409218 /* CubeEngineFoundationKit.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -490,19 +1049,17 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-CubeEngineCallKit_Tests/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/CubeEngineFoundationKit/CubeEngineFoundationKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CubeEngineFoundationKit/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-CubeEngineCallKit_Tests/Pods-CubeEngineCallKit_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/CubeEngineFoundationKit/CubeEngineFoundationKit.modulemap";
+				PRODUCT_MODULE_NAME = CubeEngineFoundationKit;
+				PRODUCT_NAME = CubeEngineFoundationKit;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -510,9 +1067,9 @@
 			};
 			name = Release;
 		};
-		DFFD7982D86FCA84885726836EA69358 /* Release */ = {
+		C4B5A1D1E7FF906CC1C9B87B4C7A8E96 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 63B68BF9CA987E566A033DEF97E31F40 /* CubeEngineCallKit.xcconfig */;
+			baseConfigurationReference = 024314192D104FEEFA37E866A15686A9 /* CubeEngineCallKit.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -535,20 +1092,49 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
+		};
+		E70B005B13CF2784B3EE5B5360AEF689 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24A652190D18E7F6861B590B48409218 /* CubeEngineFoundationKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CubeEngineFoundationKit/CubeEngineFoundationKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CubeEngineFoundationKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CubeEngineFoundationKit/CubeEngineFoundationKit.modulemap";
+				PRODUCT_MODULE_NAME = CubeEngineFoundationKit;
+				PRODUCT_NAME = CubeEngineFoundationKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		29837E774AF0D1B0A53036F0821C9996 /* Build configuration list for PBXNativeTarget "Pods-CubeEngineCallKit_Tests" */ = {
+		16B099A8EBF0BEDABFB89DD93778D4EA /* Build configuration list for PBXNativeTarget "Genie" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				36A1DD2ADF684DBEBB0623153C769ECA /* Debug */,
-				BA329FADD4455AACCDD27038904694BE /* Release */,
+				202D4F455D34C60CEE3D5F9B4071BB47 /* Debug */,
+				8ECE3894587B99ABF8946FC8857D0966 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -562,11 +1148,38 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BAC03B8794AD339144CA42B83CEDE200 /* Build configuration list for PBXNativeTarget "CubeEngineCallKit" */ = {
+		6467362F04D0572B976DC856B565781A /* Build configuration list for PBXNativeTarget "CubeEngineFoundationKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				423F30D6DF510037CE733A50001BD37C /* Debug */,
-				DFFD7982D86FCA84885726836EA69358 /* Release */,
+				E70B005B13CF2784B3EE5B5360AEF689 /* Debug */,
+				BC0A387FA5B8ED1ADFDA0CA404DE0143 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9BDC4A8F185C81D576084B9E2D905A6 /* Build configuration list for PBXNativeTarget "CubeEngineCallKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4B5A1D1E7FF906CC1C9B87B4C7A8E96 /* Debug */,
+				9B70AED253D11CF04F1683A4827C183D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF7CB656CAD5BD7D7DD159F70FCC8E88 /* Build configuration list for PBXNativeTarget "Pods-CubeEngineCallKit_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F3B675FE16F6BA86BB3553A550DC6B7 /* Debug */,
+				6F02A700E32315A2199A07D1F98D8CC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD71A145F5D600936CAD3FD45004B634 /* Build configuration list for PBXNativeTarget "CubeWebRTC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93B567997364A930EA2EA41AEAE837C6 /* Debug */,
+				6AD92CC7EEC49F376759A97FFCBC66F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

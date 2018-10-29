@@ -209,11 +209,22 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-CubeEngineCallKit_Tests/Pods-CubeEngineCallKit_Tests-frameworks.sh",
+				"${PODS_ROOT}/../../CubeEngineCallKit/Frameworks/CubeEngineCallKit.framework",
 				"${BUILT_PRODUCTS_DIR}/CubeEngineCallKit/CubeEngineCallKit.framework",
+				"${PODS_ROOT}/CubeEngineFoundationKit/CubeEngineFoundationKit/Frameworks/CubeEngineFoundationKit.framework",
+				"${BUILT_PRODUCTS_DIR}/CubeEngineFoundationKit/CubeEngineFoundationKit.framework",
+				"${PODS_ROOT}/CubeWebRTC/WebRTC/Frameworks/WebRTC.framework",
+				"${BUILT_PRODUCTS_DIR}/CubeWebRTC/CubeWebRTC.framework",
+				"${PODS_ROOT}/Genie/Genie/Frameworks/Genie.framework",
+				"${BUILT_PRODUCTS_DIR}/Genie/Genie.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CubeEngineCallKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CubeEngineFoundationKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WebRTC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CubeWebRTC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Genie.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

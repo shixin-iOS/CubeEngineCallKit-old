@@ -1,0 +1,6 @@
+framework module CubeWebRTC {
+  umbrella header "CubeWebRTC-umbrella.h"
+
+  export *
+  module * { export * }
+}

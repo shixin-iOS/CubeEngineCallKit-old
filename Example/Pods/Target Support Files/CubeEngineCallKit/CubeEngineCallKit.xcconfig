@@ -1,5 +1,8 @@
+CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES
 CONFIGURATION_BUILD_DIR = ${PODS_CONFIGURATION_BUILD_DIR}/CubeEngineCallKit
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/../../CubeEngineCallKit/Frameworks" "${PODS_ROOT}/CubeEngineFoundationKit/CubeEngineFoundationKit/Frameworks" "${PODS_ROOT}/CubeWebRTC/WebRTC/Frameworks" "${PODS_ROOT}/Genie/Genie/Frameworks" "${PODS_CONFIGURATION_BUILD_DIR}/CubeEngineFoundationKit" "${PODS_CONFIGURATION_BUILD_DIR}/CubeWebRTC" "${PODS_CONFIGURATION_BUILD_DIR}/Genie"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+OTHER_LDFLAGS = $(inherited) -undefined dynamic_lookup -framework "CubeEngineCallKit" -framework "CubeEngineFoundationKit" -framework "Genie" -framework "WebRTC"
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_ROOT = ${SRCROOT}
