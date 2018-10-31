@@ -1,5 +1,5 @@
 PODS:
-  - CubeEngineCallKit (1.0.1):
+  - CubeEngineCallKit (1.0.2):
     - CubeEngineFoundationKit
     - CubeWebRTC
   - CubeEngineFoundationKit (1.0.5):
@@ -21,7 +21,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CubeEngineCallKit: c9455786fab3166b710fcc326480f33b44823b20
+  CubeEngineCallKit: 06eb5d5b537a6f0d791354d627c2441e8c467f05
   CubeEngineFoundationKit: 66fc13c8c6ece8a5e579cd0a25b38ed19212bb91
   CubeWebRTC: b6534511202e4fd299e71af447683417504bc3e9
   Genie: 491febcae661a032fbcb05c7dafe0ec0d97ab068

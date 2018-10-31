@@ -1,6 +1,6 @@
 {
   "name": "CubeEngineCallKit",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "summary": "Media part of CubeEngine",
   "description": "A media part extend of CubeEngine",
   "homepage": "https://github.com/AshineReal/CubeEngineCallKit",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/AshineReal/CubeEngineCallKit.git",
-    "tag": "1.0.1"
+    "tag": "1.0.2"
   },
   "platforms": {
     "ios": "8.0"
