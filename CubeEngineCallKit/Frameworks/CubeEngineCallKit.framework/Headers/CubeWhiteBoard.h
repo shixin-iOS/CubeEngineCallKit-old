@@ -27,7 +27,7 @@
  @param displayName 展示名字
  @return 白板实例
  */
--(instancetype)initWithGroupType:(NSString *)type withDisplayName:(NSString *)displayName;
+-(instancetype)initWithGroupType:(CubeGroupType )type withDisplayName:(NSString *)displayName;
 
 
 @end

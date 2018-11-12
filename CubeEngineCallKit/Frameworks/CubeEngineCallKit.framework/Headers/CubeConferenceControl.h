@@ -25,7 +25,7 @@
 /**
  指令集 CubeConferenceControlAction
  */
-@property (nonatomic, strong) NSString *action;
+@property (nonatomic, assign) CubeControlAction action;
 
 
 /**

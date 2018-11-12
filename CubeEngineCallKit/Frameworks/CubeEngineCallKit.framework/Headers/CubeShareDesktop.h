@@ -37,5 +37,5 @@
  */
 @property (nonatomic,strong) NSMutableArray  * members;
 
-- (instancetype)initWithGroupType:(NSString *)groupType andDisplayName:(NSString *)displayName;
+- (instancetype)initWithGroupType:(CubeGroupType )groupType andDisplayName:(NSString *)displayName;
 @end

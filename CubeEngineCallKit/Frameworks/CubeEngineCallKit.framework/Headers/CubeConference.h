@@ -27,6 +27,6 @@
 
 @property (nonatomic,strong) NSMutableDictionary *status;  //会议成员状态 hashMap <string , MemberStatus>
 
-- (instancetype)initWithGroupType:(NSString *)type withDisplayName:(NSString *)displayName;
+- (instancetype)initWithGroupType:(CubeGroupType )type withDisplayName:(NSString *)displayName;
 
 @end
